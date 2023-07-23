@@ -53,8 +53,8 @@ after login use command CLI like bellow
         setup debug show-mail-logs
 
 
-# upgrade emailsever from docker
-### update ubuntu and DMS docker server
+# upgrade Email Server 
+### update ubuntu and DMS docker server to last version
  
 ```
 sudo apt update
@@ -64,3 +64,5 @@ docker compose pull
 docker compose down
 docker compose up -d
 ```
+
+if you have same problems in usage this help plese contact to support or send email to us va6893@gmail.com
