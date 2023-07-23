@@ -6,11 +6,9 @@ in windows use `putty` and in ubuntu use `terminal console`
 https://www.putty.org/
 
 ## sample docker command
-`docker exec mailserver setup email add info@site.ir PASSWORED`
-https://www.putty.org/
 
 after login use command CLI like bellow
-`docker exec mailserver setup email add info@gbook.ir PASSWORED`
+`docker exec mailserver setup email add info@site.com PASSWORED`
 
 # commands CLI
     COMMAND email :=
