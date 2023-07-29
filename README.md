@@ -27,29 +27,10 @@ after login use command CLI like bellow
         setup quota set <EMAIL ADDRESS> [<QUOTA>]
         setup quota del <EMAIL ADDRESS>
 
-    COMMAND dovecot-master :=
-        setup dovecot-master add <USERNAME> [<PASSWORD>]
-        setup dovecot-master update <USERNAME> [<PASSWORD>]
-        setup dovecot-master del [ OPTIONS... ] <USERNAME> [ <USERNAME>... ]
-        setup dovecot-master list
-
-    COMMAND config :=
-        setup config dkim [ ARGUMENTS... ]
-
-    COMMAND relay :=
-        setup relay add-auth <DOMAIN> <USERNAME> [<PASSWORD>]
-        setup relay add-domain <DOMAIN> <HOST> [<PORT>]
-        setup relay exclude-domain <DOMAIN>
-
     COMMAND fail2ban :=
         setup fail2ban 
         setup fail2ban ban <IP>
         setup fail2ban unban <IP>
         setup fail2ban log
-
-    COMMAND debug :=
-        setup debug fetchmail
-        setup debug login <COMMANDS>
-        setup debug show-mail-logs
 
 if you have same problems in usage this help plese contact to support or send email to us va6893@gmail.com
