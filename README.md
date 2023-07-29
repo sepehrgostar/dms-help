@@ -5,12 +5,12 @@ in windows use `putty` and in ubuntu use `terminal console`
 
 https://www.putty.org/
 
-## sample docker command
+## Sample docker command
 
 after login use command CLI like bellow
 `sudo docker exec mailserver setup email add info@site.com PASSWORED`
 
-# commands CLI
+# Commands CLI
     COMMAND email :=
         setup email add <EMAIL ADDRESS> [<PASSWORD>]
         setup email update <EMAIL ADDRESS> [<PASSWORD>]
