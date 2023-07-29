@@ -8,7 +8,7 @@ https://www.putty.org/
 ## sample docker command
 
 after login use command CLI like bellow
-`sudo docker exec mailserver setup **email add info@site.com PASSWORED**`
+`sudo docker exec mailserver setup ** email add info@site.com PASSWORED **`
 
 # commands CLI
     COMMAND email :=
